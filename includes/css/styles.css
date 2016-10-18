@@ -60,7 +60,7 @@ ul li a i:hover {
     opacity: .7;
 }
 body{
-background-color: #F9EDEB;
+background-color:#F9EDEB;
 
 }
 .jumbotron{
@@ -72,6 +72,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
+li{
+  font-weight:bold;
+	color: #F1C40F ;
+}
 
 -----------------------------------
    Navbar
@@ -80,7 +84,10 @@ body {
 #searchInput {
 	width: 200px;
 }
-
+.navbar{
+	background-color: #273746;
+	opacity:0.9;
+}
 .navbar-brand {
 	padding: 13px 15px;
 }

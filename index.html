@@ -5,10 +5,11 @@
 		<title>Photography website using bootstrap</title>
 		<meta name="description" content="">
 
-	
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  	<link rel="icon" href="images/favicon.ico" type="image/ico" />
 
 		<!-- Bootstrap CSS -->
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,13 +51,12 @@
     				</li>
 
 						<li class="dropdown">
-							<a href="#" aria-haspopup="true" aria-expanded="true" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+							<a href="#" aria-haspopup="true" aria-expanded="true" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
 
 							<ul class="dropdown-menu" >
 								<li>
 									<a href="#">Service1</a>
 								</li>
-
 								<li>
 									<a href="#">Service2</a>
 								</li>
@@ -217,11 +217,29 @@
 		 		</div><!-- end panel -->
 		 	</div><!-- end feature -->
 		 </div><!-- end features -->
-			</div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.10089266528!2d77.65357191437359!3d12.83675649094444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c80501fd5bb%3A0x7e1283544d01405c!2sWipro+EC4%2C+Tower+12!5e0!3m2!1sen!2sin!4v1476707366631"
+		 <div class="tabbable">
+     	<ul class="nav nav-tabs">
+	    	<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+		    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+  	</ul>
+   	<div class="tab-content">
+	  	<div class="tab-pane active" id="tab1">
+		   	<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location </h4>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.10089266528!2d77.65357191437359!3d12.83675649094444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c80501fd5bb%3A0x7e1283544d01405c!2sWipro+EC4%2C+Tower+12!5e0!3m2!1sen!2sin!4v1476707366631"
 
-			width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-			<footer>
+				width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<p> Find us on Google Maps</p>
+	  	</div><!-- end tab-pane -->
+
+		 <div class="tab-pane" id="tab2">
+			<h4>Latest News</h4>
+			<p>The Olympus M.Zuiko Digital ED 30mm F3.5 Macro boasts the most powerful magnification (2.5x) in its class, as well as a closest focusing distance of just 9.5cm.</p>
+			<hr>
+		</div><!-- end tab-pane -->
+  	</div><!-- end tab-content -->
+    </div><!-- end tabbable -->
+	</div>
+					<footer>
 				<div class="container ">
 					<div class="row">
 						<div class="col-sm-2 ">
@@ -249,9 +267,6 @@
 
     	<!-- Custom JS -->
     	<script src="includes/js/script.js"></script>
-
-    	<!-- Bootstrap JS -->
-    	<script src="bootstrap/js/bootstrap.min.js"></script>
 
     	<!-- Custom JS -->
     	<script src="includes/js/script.js"></script>
