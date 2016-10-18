@@ -32,16 +32,16 @@ footer {
 	font-size: 11px;
 	padding: 20px;
 }
-ul {
+footer ul {
     overflow: auto;
 }
 
-ul li {
+footer ul li {
     list-style-type: none;
     float: left;
 }
 
-ul li a i {
+footer ul li a i {
     background: #205D7A;
     color: #fff;
     width: 40px;
@@ -109,6 +109,7 @@ body {
 
 .carousel-caption {
 	font-size: 24px;
+	font-family: 'Poiret One', cursive;
 }
 
 .carousel-caption h4 {
